@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     try {
       // 2. Perform the sensitive action HERE on the server using the key
       // Replace the URL below with the actual service you are connecting to
-      const response = await fetch('https://your-database-service.com', {
+      const response = await fetch('vercel-idzzr3jhz-mrhairybusiness-cryptos-projects.vercel.app', {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${masterKey}`,
